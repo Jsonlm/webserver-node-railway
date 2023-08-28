@@ -34,4 +34,4 @@ app.get('*', function (req, res) {
     res.sendFile(__dirname + '/public/404.html')
 })
 
-app.listen(process.env.PORT)
+app.listen(3000)
